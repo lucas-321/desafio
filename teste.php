@@ -3,5 +3,5 @@
 	$data = date('2020-12-12');
 	$dia = date('w',strtotime($data));
 
-	print "$data é $diasemana[$dia]";
+	print "$data não é $diasemana[$dia]";
 ?>
